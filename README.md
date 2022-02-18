@@ -10,14 +10,14 @@ Polybin is a website where you can store any text and share it easily using shor
 - See all the texts, delete them and renew their expiry duration
 - Detect the recent IP addresses sorted by time that accessed a particular link
 - Detect links in the texts and redirect directly to them
-- Encrypt texts and allow decrypting throw a key
+- Encrypt texts and allow decrypting through a key
 
 ### Tech Stack
 - Database: MongoDB
 - Frontend: React.js
 - Backend: Node.js and Express.js
 
-### Main APIs used
+### Some APIs used
 - [shrtcode](https://shrtco.de/docs/)
 - [classify](https://classify-web.herokuapp.com/#/api)
 - [isurl](https://www.npmjs.com/package/isurl)
