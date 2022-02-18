@@ -47,7 +47,7 @@ const Home = () => {
             &nbsp;&nbsp;&nbsp;
             <input type='text' className='title-input' onChange={(e)=>setTitle(e.target.value)}/>
           </div>
-          <div className='visibility'>
+          {/* <div className='visibility'>
             <span>Select visibility</span>
             &nbsp;&nbsp;&nbsp;
             <select id='visibility' onChange={(e)=>setVisibility(e.target.value)}>
@@ -55,7 +55,7 @@ const Home = () => {
               <option value='private'>Private</option>
               <option value='unlisted'>Unlisted</option>
             </select>
-          </div>
+          </div> */}
           <div className='encryption'>
             <span>Do you want to encrypt this Poly with a Key?</span>
             &nbsp;&nbsp;&nbsp;
